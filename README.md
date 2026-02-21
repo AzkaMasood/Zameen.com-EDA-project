@@ -1,41 +1,52 @@
 Pakistan Real Estate Market Analysis
 Exploratory Data Analysis (EDA) using Python
 
-Project Overview
-
-This project presents a comprehensive Exploratory Data Analysis (EDA) of Pakistan’s real estate market using property listing data from Zameen.com.
+Project Overview:
+This project presents an Exploratory Data Analysis (EDA) of Pakistan’s real estate market using property listing data from Zameen.com. The objective is to analyze pricing patterns, regional differences, property trends, and business insights using structured data analysis techniques in Python.
+The project follows the step-by-step instructions provided in the assignment brief and includes data cleaning, feature engineering, outlier detection, and multi-level analysis.
 
 The objective is to uncover:
-Market trends
-City-wise pricing differences
-Property type distribution
-Luxury market growth
-Key pricing determinants
-The analysis was conducted using Python in Google Colab.
+ Market trends,
+ City-wise pricing differences,
+ Property type distribution,
+ Luxury market growth,
+ Key pricing determinants, 
+ The analysis was conducted using Python in Google Colab.
 
-🎯 Project Objectives
-Clean and preprocess real-world real estate data
-Engineer meaningful features (e.g., area conversion to marla)
-Detect and analyze outliers
-Perform univariate, bivariate, and multivariate analysis
-Answer key business questions using visualization
-Generate actionable business insights
+🎯 Project Objectives:
+Clean and preprocess real-world real estate data.
+Engineer meaningful features (e.g., area conversion to marla).
+Detect and analyze outliers.
+Perform univariate, bivariate, and multivariate analysis.
+Answer key business questions using visualization.
+Generate actionable business insights.
 
-📂 Dataset Description
+📂 Dataset Description:
 The dataset contains ~190,000+ property listings and includes:
 
-Column	Description
+Column	Description:
 property_id	Unique property identifier
+
 property_type	Type of property (House, Flat, etc.)
+
 price	Listing price (PKR)
+
 city	City name
+
 province_name	Province
+
 baths	Number of bathrooms
+
 bedrooms	Number of bedrooms
+
 area	Property size (Mixed units: Kanal / Marla)
+
 purpose	For Sale / For Rent
+
 agency	Real estate agency
+
 agent	Individual agent
+
 date_added	Listing date
 
 🛠 Tools & Technologies Used
